@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharath Pillai</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c7f6dcb815.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo-1.png" alt="logo" class="logo">
+                <ul id="side-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="menubarClose()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Sharath Pillai</span> <br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/SHARATH_PILLAI-photo.png" alt="user-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Aspiring software engineer with hands-on experience in building responsive web applications
+                        using HTML5, CSS3, JavaScript, and React. Proficient in modern development tools like Git,
+                        Parcel, Vite, and Netlify. Developed 30+ small projects and 10 React-based applications,
+                        showcasing strong problem-solving skills and attention to detail. Passionate about creating
+                        user-friendly interfaces and continuously learning new technologies."</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Website Development</li>
+                            <li><span>App Development</span><br>Building Android/ios Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - current</span><br>Fullstack Developer At Bridgeon</li>
+                            <li><span>2023 - 2024</span><br>Freelance Software Developer </li>
+                            <li><span>2022 - 2023</span><br>Freelance Frontend Developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025</span><br>Fullstack course(react.js,.NET) from Bridgeon</li>
+                            <li><span>2023</span><br>Frontend course from online media </li>
+                            <li><span>2017</span><br>B-Tech from University of Kerala</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------services------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Elevate your brand with clean, responsive, and modern web designs that captivate users and drive
+                        results. Designed to look great on every screen — built to grow your business.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I craft intuitive, user-friendly interfaces that deliver seamless digital experiences — blending
+                        beauty with usability to turn clicks into customers.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Beautiful, intuitive app designs that engage users and elevate your brand across Android and iOS
+                        platforms.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------portfolio----------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/My Buddy Thumnail.JPG" alt="work">
+                    <div class="layer">
+                        <h3>My Buddy App</h3>
+                        <p>I am a large language model, trained by Google. I'm here to help answer your questions and
+                            complete tasks as instructed. I don't have a personal experiences like a human does.
+                        </p>
+                        <a href="https://mybuddybot.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Agecalculator.JPG" alt="work">
+                    <div class="layer">
+                        <h3>Age Calculator App</h3>
+                        <p>The Age Finder App allows users to calculate their exact age in years, months, and days by
+                            selecting their date of birth. It instantly displays the result based on the current date
+                            and handles all edge cases, including leap years and varying month lengths. It also shows an
+                            error if a future date is selected, which disappears automatically after a few seconds.</p>
+                        <a href="https://agefinder1.netlify.app/" target="_blank"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/billsplit.JPG" alt="work">
+                    <div class="layer">
+                        <h3>Bill Split App</h3>
+                        <p>A simple and interactive app to calculate tip amount, total bill, and split the cost per
+                            person. Users can select a tip percentage or enter a custom one, and see instant results.
+                            Perfect for dining out with friends!</p>
+                        <a href="https://bill-split-1.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- -------------contact--------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> spillai.developer@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +91-9048299677</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" id="" placeholder="Your Name" required>
+                        <input type="email" name="Email" id="" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Type Message" id=""></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © sharath pillai.</p>
+    </div>
+</body>
+
+</html>
