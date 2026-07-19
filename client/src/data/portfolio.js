@@ -8,7 +8,7 @@ export const profile = {
     'Former HSE professional transitioning into software development — building scalable full-stack applications with React, Node.js, and .NET.',
   bio: `Aspiring software engineer with hands-on experience building responsive web applications using HTML5, CSS3, JavaScript, React, Node.js, and .NET. Proficient in modern tools like Git, Vite, and Netlify. Developed 30+ learning projects and 10+ React applications, with a strong focus on clean UI, API design, and real-world problem solving.`,
   openToWork: true,
-  cvPath: '/images/my-cv.pdf',
+  cvPath: '/my-cv.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/sharath-pillai-software-developer/',
     github: 'https://github.com/sharath-pillai-software-developer',
@@ -86,38 +86,38 @@ export const education = [
 
 export const featuredProjects = [
   {
-    id: 'ecommerce',
-    title: 'Full-Stack E-Commerce Platform',
+    id: 'hrms',
+    title: 'HRMS Pro — HR Management System',
     category: 'fullstack',
     description:
-      'Complete online shopping experience with product catalog, search, filters, cart, JWT auth, and multi-gateway payments (Stripe, Razorpay, COD). Admin dashboard for products and orders.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Stripe', 'Razorpay', 'Cloudinary'],
-    thumbnail: '/images/ecommerce-thumb.svg',
-    liveUrl: null,
+      'Full-stack Human Resource Management System with employee records, attendance tracking, leave management, payroll, and role-based access control. Built with React and a .NET backend.',
+    tech: ['React', 'Node.js', '.NET', 'MongoDB', 'JWT', 'Tailwind CSS'],
+    thumbnail: '/images/hrms-thumb.png',
+    liveUrl: 'https://hr-management-system-frontend-rho.vercel.app',
+    githubUrl: null,
+    featured: true,
+  },
+  {
+    id: 'quickpark',
+    title: 'QuickPark — Smart Parking Platform',
+    category: 'fullstack',
+    description:
+      "India's smartest parking management platform — find, book, and manage parking spaces in real time. Features GPS-based slot discovery, live availability, secure payments, and 24/7 support.",
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'REST API'],
+    thumbnail: '/images/quickpark-thumb.png',
+    liveUrl: 'https://quickparkproject-parkingmanagements-sigma.vercel.app',
     githubUrl: null,
     featured: true,
   },
   {
     id: 'shoemart',
-    title: 'ShoeMart — Cloth & Fashion Store',
+    title: 'ShoeMart — Fashion & Footwear Store',
     category: 'fullstack',
     description:
-      'MERN stack e-commerce platform for browsing and purchasing fashion products. Responsive UI with Tailwind CSS, secure checkout, and admin product management.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
-    thumbnail: '/images/shoemart-thumb.svg',
-    liveUrl: null,
-    githubUrl: null,
-    featured: true,
-  },
-  {
-    id: 'mybuddy',
-    title: 'My Buddy App',
-    category: 'fullstack',
-    description:
-      'Interactive web application for task automation and utility management — built with modern React patterns and deployed on Netlify.',
-    tech: ['React', 'JavaScript', 'Netlify'],
-    thumbnail: '/images/My Buddy Thumnail.JPG',
-    liveUrl: 'https://mybuddybot.netlify.app/',
+      'MERN stack e-commerce platform for browsing and purchasing fashion footwear. Features product search, category filters, wishlist, cart, secure checkout, and admin product management.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Cloudinary'],
+    thumbnail: '/images/shoemart-thumb.png',
+    liveUrl: 'https://shoe-mart-frontend.vercel.app',
     githubUrl: null,
     featured: true,
   },
@@ -125,13 +125,24 @@ export const featuredProjects = [
 
 export const miniProjects = [
   {
+    id: 'mybuddy',
+    title: 'My Buddy App',
+    category: 'frontend',
+    description:
+      'Interactive web application for task automation and utility management — built with modern React patterns and deployed on Netlify.',
+    tech: ['React', 'JavaScript', 'Netlify'],
+    thumbnail: '',
+    liveUrl: 'https://mybuddybot.netlify.app/',
+    githubUrl: null,
+  },
+  {
     id: 'age-calculator',
     title: 'Age Calculator',
     category: 'frontend',
     description:
       'Calculate exact age in years, months, and days with leap-year handling and future-date validation.',
     tech: ['React', 'JavaScript'],
-    thumbnail: '/images/Agecalculator.JPG',
+    thumbnail: '',
     liveUrl: 'https://agefinder1.netlify.app/',
     githubUrl: null,
   },
@@ -142,7 +153,7 @@ export const miniProjects = [
     description:
       'Split bills with friends — tip calculator, per-person cost, and instant results for dining out.',
     tech: ['React', 'JavaScript'],
-    thumbnail: '/images/billsplit.JPG',
+    thumbnail: '',
     liveUrl: 'https://bill-split-1.netlify.app/',
     githubUrl: null,
   },
