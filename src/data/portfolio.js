@@ -46,7 +46,7 @@ export const experience = [
   {
     period: '2026',
     role: 'Student',
-    Institute: 'Scope India',
+    Institute: 'ScopeIndia',
     Stack: 'React & .NET Core MVC,WEB API',
     Project: 'QuickPark Parking Managment, Scope India Website',
     description:
@@ -77,7 +77,7 @@ export const education = [
   {
     period: '2026',
     degree: 'Backend Development (C# ASP.NET CORE MVC)',
-    school: 'Brototype',
+    school: 'ScopeIndia',
   },
   {
     period: '2025',
@@ -157,7 +157,7 @@ export const miniProjects = [
       'Interactive web application for task automation and utility management — built with modern React patterns and deployed on Netlify.',
     tech: ['React', 'JavaScript', 'Netlify'],
     thumbnail: '',
-    liveUrl: 'https://mybuddybot.netlify.app/',
+    liveUrl: 'https://my-buddy-sigma.vercel.app/',
     githubUrl: null,
   },
   {

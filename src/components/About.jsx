@@ -7,19 +7,10 @@ export default function About() {
         <h2 className="section-title mb-4">
           About <span className="gradient-text">Me</span>
         </h2>
-        <p className="text-slate-400 max-w-2xl mb-12">
-          Crafting digital experiences that recruiters and teams notice.
-        </p>
-
+      
         <div className="grid lg:grid-cols-5 gap-12 items-start">
           <div className="lg:col-span-3 space-y-6">
             <p className="text-slate-300 leading-relaxed text-lg">{profile.bio}</p>
-            <p className="text-slate-400 leading-relaxed">
-              Transitioning from the industrial HSE sector into software development, I bring
-              discipline, attention to detail, and a strong work ethic to every project. I focus on
-              building applications that are not just functional, but polished and user-friendly —
-              exactly what hiring managers look for.
-            </p>
           </div>
 
           <div className="lg:col-span-2 grid grid-cols-2 gap-4">
