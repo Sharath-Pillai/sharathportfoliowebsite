@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="border-t border-slate-800 py-8">
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
         <p>
-          © {year} {profile.name}. Built with React & ASP.NET Core.
+          © {year} {profile.name}. Built with React.
         </p>
         <p>
           Available for full-time & freelance opportunities
