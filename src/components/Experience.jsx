@@ -9,7 +9,7 @@ export default function Experience() {
           Work <span className="gradient-text">Experience</span>
         </h2>
         <p className="text-slate-400 max-w-2xl mb-12">
-          My professional journey from frontend freelancer to full-stack developer.
+          My professional journey to full-stack developer.
         </p>
 
         <div className="relative">
@@ -28,13 +28,25 @@ export default function Experience() {
                       </div>
                       <div>
                         <h3 className="font-semibold text-lg">{job.role}</h3>
-                        <p className="text-indigo-400 text-sm">{job.company}</p>
+                        <p className="text-indigo-400 text-sm">{job.company || job.Institute}</p>
                       </div>
                     </div>
                     <span className="text-xs font-medium px-3 py-1 rounded-full bg-slate-800 text-slate-400">
                       {job.period}
                     </span>
                   </div>
+                  {job.Stack && (
+                    <div className="mb-2">
+                      <span className="text-sm font-semibold text-slate-300">Stack: </span>
+                      <span className="text-sm text-slate-400">{job.Stack}</span>
+                    </div>
+                  )}
+                  {job.Project && (
+                    <div className="mb-3">
+                      <span className="text-sm font-semibold text-slate-300">Project: </span>
+                      <span className="text-sm text-slate-400">{job.Project}</span>
+                    </div>
+                  )}
                   <p className="text-slate-400 leading-relaxed">{job.description}</p>
                 </div>
               </div>

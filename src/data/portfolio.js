@@ -154,9 +154,9 @@ export const miniProjects = [
     title: 'My Buddy App',
     category: 'frontend',
     description:
-      'Interactive web application for task automation and utility management — built with modern React patterns and deployed on Netlify.',
+      'Interactive chat bot web application for task automation and utility management — built with modern React patterns and deployed on Netlify.',
     tech: ['React', 'JavaScript', 'Netlify'],
-    thumbnail: '',
+    thumbnail: '/images/mybuddy-thumb.png',
     liveUrl: 'https://my-buddy-sigma.vercel.app/',
     githubUrl: null,
   },
@@ -167,7 +167,7 @@ export const miniProjects = [
     description:
       'Calculate exact age in years, months, and days with leap-year handling and future-date validation.',
     tech: ['React', 'JavaScript'],
-    thumbnail: '',
+    thumbnail: '/images/age-calculator-thumb.png',
     liveUrl: 'https://agefinder1.netlify.app/',
     githubUrl: null,
   },
@@ -178,7 +178,7 @@ export const miniProjects = [
     description:
       'Split bills with friends — tip calculator, per-person cost, and instant results for dining out.',
     tech: ['React', 'JavaScript'],
-    thumbnail: '',
+    thumbnail: '/images/bill-split-thumb.png',
     liveUrl: 'https://bill-split-1.netlify.app/',
     githubUrl: null,
   },
