@@ -1,14 +1,14 @@
 export const profile = {
   name: 'Sharath Pillai',
-  title: 'Full-Stack Software Developer',
-  location: 'Kerala, India',
+  title: 'Full Stack Developer',
+  location: 'Alappuzha, Kerala, India',
   email: 'spillai.developer@gmail.com',
   phone: '+91 9048299677',
   tagline:
-    'Former HSE professional transitioning into software development — building scalable full-stack applications with React, Node.js, and .NET.',
-  bio: `Aspiring software engineer with hands-on experience building responsive web applications using HTML5, CSS3, JavaScript, React, Node.js, and .NET. Proficient in modern tools like Git, Vite, and Netlify. Developed 30+ learning projects and 10+ React applications, with a strong focus on clean UI, API design, and real-world problem solving.`,
+    'Proficient in full stack development, with hands-on experience in building responsive, user-friendly and efficient websites.',
+  bio: `Proficient in full stack development, with hands-on experience in building responsive, user-friendly and efficient websites, performing testing, debugging, problem-solving and project management. Adept at collaborating with cross-functional teams and delivering high-quality solutions. I am seeking a lucrative job to enhance my abilities as well as the goals of the company.`,
   openToWork: true,
-  cvPath: '/my-cv.pdf',
+  cvPath: '/Sharath_Pillai_CV.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/sharath-pillai-software-developer/',
     github: 'https://github.com/sharath-pillai-software-developer',
@@ -17,81 +17,93 @@ export const profile = {
 };
 
 export const stats = [
-  { label: 'Years Experience', value: '3+' },
-  { label: 'Projects Built', value: '40+' },
+  { label: 'Years Experience', value: '2+' },
+  { label: 'Projects Built', value: '20+' },
   { label: 'React Apps', value: '10+' },
-  { label: 'Technologies', value: '15+' },
+  { label: 'Technologies', value: '10+' },
 ];
 
 export const skills = [
   {
+    category: 'Languages',
+    items: ['JavaScript', 'C-Sharp (C#)', 'Python (Basic)', 'Java (Basic)'],
+  },
+  {
     category: 'Frontend',
-    items: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Responsive Design'],
+    items: ['React.js', 'JavaScript', 'HTML5', 'CSS3', 'Tailwind CSS', 'Bootstrap'],
   },
   {
     category: 'Backend',
-    items: ['Node.js', 'Express.js', 'C#', '.NET', 'REST APIs', 'JWT Authentication'],
+    items: ['Node.js', 'Express.js', 'ASP.NET CORE MVC', '.NET WEB API', 'ADO.NET', 'Entity Framework'],
   },
   {
     category: 'Database & Tools',
-    items: ['MongoDB', 'Git', 'Vite', 'Netlify', 'Cloudinary', 'Postman'],
-  },
-  {
-    category: 'Practices',
-    items: ['Full-Stack Development', 'UI/UX', 'Agile', 'Problem Solving', 'Code Review'],
+    items: ['MongoDB', 'PostgreSQL', 'MS SQL', 'Git', 'GitHub', 'Vercel', 'Render', 'VS Code'],
   },
 ];
 
 export const experience = [
   {
-    period: '2024 – Present',
-    role: 'Full-Stack Developer',
-    company: 'Bridgeon',
+    period: '2026',
+    role: 'Student',
+    Institute: 'Scope India',
+    Stack: 'React & .NET Core MVC,WEB API',
+    Project: 'QuickPark Parking Managment, Scope India Website',
     description:
-      'Building production-ready web applications with React and .NET. Collaborating on API design, frontend architecture, and delivering client-focused solutions.',
+      'Building production-ready web applications with MERN stack Collaborating on API design, frontend architecture, and delivering client-focused solutions.',
   },
   {
-    period: '2023 – 2024',
-    role: 'Freelance Software Developer',
-    company: 'Self-employed',
+    period: '2025',
+    role: 'Student',
+    Institute: 'Brototype',
+    Stack: 'MERN',
+    Project: 'HRMS,E-Commerce website',
     description:
       'Delivered custom web solutions for clients — from landing pages to interactive React apps with backend integrations.',
   },
   {
-    period: '2022 – 2023',
-    role: 'Freelance Frontend Developer',
-    company: 'Self-employed',
+    period: '2025',
+    role: 'Student',
+    Institute: 'Bridgeon',
+    Stack: 'MERN',
+    Project: 'ShoeMart',
     description:
-      'Created responsive, user-friendly interfaces using HTML, CSS, JavaScript, and React for small businesses and personal brands.',
+      'Building production-ready web applications with MERN stack Collaborating on API design, frontend architecture, and delivering client-focused solutions.',
   },
+
 ];
 
 export const education = [
   {
+    period: '2026',
+    degree: 'Backend Development (C# ASP.NET CORE MVC)',
+    school: 'Brototype',
+  },
+  {
     period: '2025',
-    degree: 'Full-Stack Development (React.js & .NET)',
+    degree: 'Full-Stack Development (MERN)',
+    school: 'Brototype',
+  },
+  {
+    period: '2025',
+    degree: 'Full-Stack Development (MERN)',
     school: 'Bridgeon',
   },
   {
-    period: '2023',
-    degree: 'Frontend Development',
-    school: 'Online Learning Platforms',
-  },
-  {
-    period: '2017',
-    degree: 'B.Tech',
-    school: 'University of Kerala',
+    period: 'Apr 2013 – Apr 2017',
+    degree: 'Bachelor of Technology in Mechanical Engineering',
+    school: 'University of Kerala, Kerala, India',
   },
 ];
 
 export const featuredProjects = [
   {
     id: 'hrms',
-    title: 'HRMS Pro — HR Management System',
+    title: 'HRMS PRO — HR Management Website',
     category: 'fullstack',
     description:
-      'Full-stack Human Resource Management System with employee records, attendance tracking, leave management, payroll, and role-based access control. Built with React and a .NET backend.',
-    tech: ['React', 'Node.js', '.NET', 'MongoDB', 'JWT', 'Tailwind CSS'],
+      'MongoDB schema design with real-world validation. Express.js MVC Architecture. React.js Context API for global state. Features JWT strategy, RBAC, and Socket.IO real-time push notifications.',
+    tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Git'],
     thumbnail: '/images/hrms-thumb.png',
     liveUrl: 'https://hr-management-system-frontend-rho.vercel.app',
     githubUrl: null,
@@ -99,25 +111,25 @@ export const featuredProjects = [
   },
   {
     id: 'quickpark',
-    title: 'QuickPark — Smart Parking Platform',
+    title: 'QuickPark — Parking Management Website',
     category: 'fullstack',
     description:
-      "India's smartest parking management platform — find, book, and manage parking spaces in real time. Features GPS-based slot discovery, live availability, secure payments, and 24/7 support.",
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'REST API'],
+      'RESTful API Design, Dependency Injection, Repository/Service Layer Pattern. Features EF Core Code-First Migrations, JWT Role-Based Authorization, and Google Maps integration.',
+    tech: ['React', 'ASP.NET CORE MVC', 'WEB API', 'Entity', 'PostgreSQL', 'Git'],
     thumbnail: '/images/quickpark-thumb.png',
     liveUrl: 'https://quickparkproject-parkingmanagements-sigma.vercel.app',
     githubUrl: null,
     featured: true,
   },
   {
-    id: 'shoemart',
-    title: 'ShoeMart — Fashion & Footwear Store',
+    id: 'forever',
+    title: 'Forever — E-commerce Website',
     category: 'fullstack',
     description:
-      'MERN stack e-commerce platform for browsing and purchasing fashion footwear. Features product search, category filters, wishlist, cart, secure checkout, and admin product management.',
-    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Cloudinary'],
-    thumbnail: '/images/shoemart-thumb.png',
-    liveUrl: 'https://shoe-mart-frontend.vercel.app',
+      'Designed and developed a clean and modern responsive e-commerce website. A CRUD application exposed using a RESTful API made with Node.js. Features include Axios for backend connection and Role-Based Access Control.',
+    tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Git'],
+    thumbnail: '/images/forever-thumb.png',
+    liveUrl: '#',
     githubUrl: null,
     featured: true,
   },
