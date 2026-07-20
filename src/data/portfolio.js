@@ -109,6 +109,7 @@ export const featuredProjects = [
     githubUrl: null,
     featured: true,
   },
+  
   {
     id: 'quickpark',
     title: 'QuickPark — Parking Management Website',
@@ -122,6 +123,18 @@ export const featuredProjects = [
     featured: true,
   },
   {
+    id: 'shoemart',
+    title: 'ShoeMart — Fashion & Footwear Store',
+    category: 'fullstack',
+    description:
+      'MERN stack e-commerce platform for browsing and purchasing fashion footwear. Features product search, category filters, wishlist, cart, secure checkout, and admin product management.',
+    tech: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS', 'Cloudinary'],
+    thumbnail: '/images/shoemart-thumb.png',
+    liveUrl: 'https://shoe-mart-frontend.vercel.app',
+    githubUrl: null,
+    featured: true,
+  },
+  {
     id: 'forever',
     title: 'Forever — E-commerce Website',
     category: 'fullstack',
@@ -129,7 +142,7 @@ export const featuredProjects = [
       'Designed and developed a clean and modern responsive e-commerce website. A CRUD application exposed using a RESTful API made with Node.js. Features include Axios for backend connection and Role-Based Access Control.',
     tech: ['React.js', 'Tailwind CSS', 'Node.js', 'Express.js', 'MongoDB', 'Git'],
     thumbnail: '/images/forever-thumb.png',
-    liveUrl: '#',
+    liveUrl: 'https://e-commerce-website-cloth-sellerfron.vercel.app/',
     githubUrl: null,
     featured: true,
   },

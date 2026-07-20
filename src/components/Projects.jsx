@@ -124,9 +124,9 @@ export default function Projects() {
               <Layers size={18} className="text-indigo-400" />
               <h3 className="font-semibold text-lg">Main Projects</h3>
             </div>
-            <div className="grid md:grid-cols-2 gap-6">
-              {(filter === 'all' ? featuredProjects : filtered).map((project, i) => (
-                <ProjectCard key={project.id} project={project} large={i === 0 && filter === 'all'} />
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {(filter === 'all' ? featuredProjects : filtered).map((project) => (
+                <ProjectCard key={project.id} project={project} />
               ))}
             </div>
           </div>
