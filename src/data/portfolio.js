@@ -8,7 +8,7 @@ export const profile = {
     'Proficient in full stack development, with hands-on experience in building responsive, user-friendly and efficient websites.',
   bio: `Proficient in full stack development, with hands-on experience in building responsive, user-friendly and efficient websites, performing testing, debugging, problem-solving and project management. Adept at collaborating with cross-functional teams and delivering high-quality solutions. I am seeking a lucrative job to enhance my abilities as well as the goals of the company.`,
   openToWork: true,
-  cvPath: '/Sharath_Pillai_CV.pdf',
+  cvPath: '/images/SHARATH_PILLAI_CV.pdf',
   social: {
     linkedin: 'https://www.linkedin.com/in/sharath-pillai-software-developer/',
     github: 'https://github.com/sharath-pillai-software-developer',
